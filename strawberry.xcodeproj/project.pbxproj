@@ -11,6 +11,7 @@
 		E10341532CB95BD200131089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10341522CB95BD200131089 /* ContentView.swift */; };
 		E10341552CB95BD300131089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10341542CB95BD300131089 /* Assets.xcassets */; };
 		E10341582CB95BD300131089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10341572CB95BD300131089 /* Preview Assets.xcassets */; };
+		E103415F2CB95C7200131089 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103415E2CB95C7200131089 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E10341522CB95BD200131089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E10341542CB95BD300131089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10341572CB95BD300131089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E103415E2CB95C7200131089 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E103414F2CB95BD200131089 /* strawberry */ = {
 			isa = PBXGroup;
 			children = (
+				E103415E2CB95C7200131089 /* SplashScreenView.swift */,
 				E10341502CB95BD200131089 /* strawberryApp.swift */,
 				E10341522CB95BD200131089 /* ContentView.swift */,
 				E10341542CB95BD300131089 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				E10341532CB95BD200131089 /* ContentView.swift in Sources */,
 				E10341512CB95BD200131089 /* strawberryApp.swift in Sources */,
+				E103415F2CB95C7200131089 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
