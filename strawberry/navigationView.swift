@@ -1,15 +1,10 @@
-//
-//  navigationView.swift
-//  strawberry
-//
-//  Created by vladislav kim on 13.10.2024.
-//
-
 import SwiftUI
 
 struct navigationView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView(content: {
+            NavigationLink(destination: Text("Destination")) { /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/ }
+        })
     }
 }
 

@@ -8,6 +8,8 @@ struct SplashScreenView: View {
     var body: some View {
         VStack {
             VStack {
+                Image(systemName: "volleyball")
+                    .font(.title)
                 Text("loading...")
                     .font(.title)
             }
