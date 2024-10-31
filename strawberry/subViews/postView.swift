@@ -5,9 +5,10 @@ struct postView: View {
     var body: some View {
         ZStack(content: {
             Rectangle()
-                .fill(Color.blue)
+                .fill(Color.black)
                 .frame(maxWidth: .infinity,minHeight: 400)
             Text(fruit)
+                .foregroundStyle(Color.white)
                     
         })
                     
