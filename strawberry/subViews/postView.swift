@@ -1,11 +1,20 @@
 import SwiftUI
 
 struct postView: View {
+    let fruit:String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(content: {
+            Rectangle()
+                .fill(Color.blue)
+                .frame(maxWidth: .infinity,minHeight: 400)
+            Text(fruit)
+                    
+        })
+                    
+        
     }
 }
 
 #Preview {
-    postView()
+    postView(fruit:"")
 }

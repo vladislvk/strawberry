@@ -1,14 +1,15 @@
 import SwiftUI
 
 struct screenOne: View {
-    
-    let randomData = ["apple","strawberries","bananas","pineapples","watermelon","grapefruit"]
     var body: some View {
         VStack(content: {
-            ForEach(randomData, id:\.self) { fruit in
-                VStack(content: {
-                    postStruct(fruit:fruit)
-                })
+            ScrollView(.vertical,showsIndicators: false) {
+                headerView()
+                ForEach(randomData, id:\.self) { fruit in
+                    VStack(content: {
+                        postView(fruit:fruit)
+                    })
+                }
             }
         })
     }
