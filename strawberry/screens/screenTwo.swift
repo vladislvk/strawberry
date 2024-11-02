@@ -1,9 +1,18 @@
 import SwiftUI
 
 struct screenTwo: View {
-    let items = Array(1...50)
+    let data = (1...100).map {"Item\($0)"}
+    let columns = [
+        GridItem(.adaptive(minimum: 80))
+    ]
     var body: some View {
-        Text("screen2")
+        ScrollView{
+            LazyVGrid(columns: columns,spacing: 20, content: {
+                ForEach(data, id:\.self){ Item in
+                    Text(Item)
+                }
+            })
+        }
     }
 }
 
