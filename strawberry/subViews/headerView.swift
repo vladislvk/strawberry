@@ -6,8 +6,12 @@ struct headerView: View {
             Text("zxc")
                 .font(.title)
             Spacer()
+            Image(systemName: "heart")
+                .font(.title)
+                .padding(.horizontal)
             Image(systemName: "message")
                 .font(.title)
+            
         }).padding(.horizontal)
     }
 }
