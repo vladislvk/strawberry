@@ -1,21 +1,33 @@
 import SwiftUI
 
 struct screenTwo: View {
-    let data = (1...100).map {"Item\($0)"}
+    
     let columns = [
-        GridItem(.adaptive(minimum: 80))
+        GridItem(.flexible(),spacing: 0),
+        GridItem(.flexible(),spacing: 0),
+        GridItem(.flexible(),spacing: 0)
     ]
+    
     var body: some View {
-        ScrollView{
-            LazyVGrid(columns: columns,spacing: 20, content: {
-                ForEach(data, id:\.self){ Item in
-                    Text(Item)
+        ScrollView {
+            LazyVGrid(columns: columns, spacing: 0) {
+                ForEach(data) { tile in
+                    Image(tile.imageName)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .clipped()
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 0)
+                                .stroke(Color.black, lineWidth: 2)
+                        )
+                      
                 }
-            })
+            }
+            .padding(0)
         }
+        .navigationTitle("Explore")
     }
 }
-
 #Preview {
     screenTwo()
 }
