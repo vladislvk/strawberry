@@ -11,6 +11,7 @@
 		E1017CCA2CD7E0C700B3735D /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CC92CD7E0C700B3735D /* PostViewModel.swift */; };
 		E1017CCC2CD7E2C200B3735D /* storiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CCB2CD7E2C200B3735D /* storiesData.swift */; };
 		E1017CCE2CD7E42700B3735D /* storiesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CCD2CD7E42700B3735D /* storiesScreen.swift */; };
+		E1017CD02CD7F59400B3735D /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CCF2CD7F59400B3735D /* StoryViewModel.swift */; };
 		E10341512CB95BD200131089 /* strawberryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10341502CB95BD200131089 /* strawberryApp.swift */; };
 		E10341532CB95BD200131089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10341522CB95BD200131089 /* ContentView.swift */; };
 		E10341552CB95BD300131089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10341542CB95BD300131089 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		E1017CC92CD7E0C700B3735D /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		E1017CCB2CD7E2C200B3735D /* storiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storiesData.swift; sourceTree = "<group>"; };
 		E1017CCD2CD7E42700B3735D /* storiesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storiesScreen.swift; sourceTree = "<group>"; };
+		E1017CCF2CD7F59400B3735D /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
 		E103414D2CB95BD200131089 /* strawberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strawberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10341502CB95BD200131089 /* strawberryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strawberryApp.swift; sourceTree = "<group>"; };
 		E10341522CB95BD200131089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				E1017CC92CD7E0C700B3735D /* PostViewModel.swift */,
+				E1017CCF2CD7F59400B3735D /* StoryViewModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				E190EC2C2CD380620053FA07 /* headerView.swift in Sources */,
 				E195E7672CBC1DAB00AE48C1 /* screenOne.swift in Sources */,
 				E1017CCA2CD7E0C700B3735D /* PostViewModel.swift in Sources */,
+				E1017CD02CD7F59400B3735D /* StoryViewModel.swift in Sources */,
 				E1017CCE2CD7E42700B3735D /* storiesScreen.swift in Sources */,
 				E190EC2E2CD3BB8B0053FA07 /* searchView.swift in Sources */,
 				E195E7692CBC1DB500AE48C1 /* screenTwo.swift in Sources */,

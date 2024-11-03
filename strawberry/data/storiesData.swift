@@ -1,11 +1,11 @@
+import Foundation
 import SwiftUI
 
-struct storiesData: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
-#Preview {
-    storiesData()
-}
+let fakeStories: [Story] = [
+    Story(username: "user1", profilePicture: "imagepost"),
+    Story(username: "user2", profilePicture: "imagepost"),
+    Story(username: "user3", profilePicture: "imagepost"),
+    Story(username: "user4", profilePicture: "imagepost"),
+    Story(username: "user5", profilePicture: "imagepost")
+]

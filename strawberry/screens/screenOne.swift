@@ -19,20 +19,16 @@ struct screenOne: View {
                                 .font(.headline)
                         }
                         .padding(.vertical, 5)
-
                         Image(post.postImage)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(maxWidth: .infinity)
-                        
-
                         Text("❤️ \(post.likes) likes")
                             .font(.subheadline)
                             .padding(.top, 5)
                         
                         Text(post.caption)
                             .padding(.top, 2)
-                        
                         ForEach(post.comments.prefix(2), id: \.self) { comment in
                             Text(comment)
                                 .font(.caption)
