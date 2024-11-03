@@ -3,7 +3,7 @@ import SwiftUI
 struct headerView: View {
     var body: some View {
         HStack(content: {
-            Text("zxc")
+            Text("Instagram")
                 .font(.title)
             Spacer()
             Image(systemName: "heart")
