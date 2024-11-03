@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1017CC72CD7DDDE00B3735D /* messageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CC62CD7DDDE00B3735D /* messageScreen.swift */; };
+		E1017CCA2CD7E0C700B3735D /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CC92CD7E0C700B3735D /* PostViewModel.swift */; };
 		E10341512CB95BD200131089 /* strawberryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10341502CB95BD200131089 /* strawberryApp.swift */; };
 		E10341532CB95BD200131089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10341522CB95BD200131089 /* ContentView.swift */; };
 		E10341552CB95BD300131089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10341542CB95BD300131089 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1017CC62CD7DDDE00B3735D /* messageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageScreen.swift; sourceTree = "<group>"; };
+		E1017CC92CD7E0C700B3735D /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		E103414D2CB95BD200131089 /* strawberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strawberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10341502CB95BD200131089 /* strawberryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strawberryApp.swift; sourceTree = "<group>"; };
 		E10341522CB95BD200131089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1017CC82CD7E07300B3735D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E1017CC92CD7E0C700B3735D /* PostViewModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		E10341442CB95BD200131089 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +89,7 @@
 		E103414F2CB95BD200131089 /* strawberry */ = {
 			isa = PBXGroup;
 			children = (
+				E1017CC82CD7E07300B3735D /* models */,
 				E19C812F2CD22C2E000BD926 /* data */,
 				E19C812C2CD215DA000BD926 /* structs */,
 				E19C81292CD2158F000BD926 /* subViews */,
@@ -107,6 +120,7 @@
 				E195E7682CBC1DB500AE48C1 /* screenTwo.swift */,
 				E195E76A2CBC1DCB00AE48C1 /* screenThree.swift */,
 				E195E76C2CBC1DDE00AE48C1 /* screenFour.swift */,
+				E1017CC62CD7DDDE00B3735D /* messageScreen.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -211,8 +225,10 @@
 				E10341532CB95BD200131089 /* ContentView.swift in Sources */,
 				E195E76F2CBC1E9400AE48C1 /* navigationView.swift in Sources */,
 				E195E76B2CBC1DCB00AE48C1 /* screenThree.swift in Sources */,
+				E1017CC72CD7DDDE00B3735D /* messageScreen.swift in Sources */,
 				E190EC2C2CD380620053FA07 /* headerView.swift in Sources */,
 				E195E7672CBC1DAB00AE48C1 /* screenOne.swift in Sources */,
+				E1017CCA2CD7E0C700B3735D /* PostViewModel.swift in Sources */,
 				E190EC2E2CD3BB8B0053FA07 /* searchView.swift in Sources */,
 				E195E7692CBC1DB500AE48C1 /* screenTwo.swift in Sources */,
 				E10341512CB95BD200131089 /* strawberryApp.swift in Sources */,
