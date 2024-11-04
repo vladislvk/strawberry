@@ -12,8 +12,6 @@
 		E1017CCC2CD7E2C200B3735D /* storiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CCB2CD7E2C200B3735D /* storiesData.swift */; };
 		E1017CCE2CD7E42700B3735D /* storiesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CCD2CD7E42700B3735D /* storiesScreen.swift */; };
 		E1017CD02CD7F59400B3735D /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CCF2CD7F59400B3735D /* StoryViewModel.swift */; };
-		E1017CD42CD7FA8D00B3735D /* imagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CD32CD7FA8D00B3735D /* imagePickerView.swift */; };
-		E1017CD62CD7FBAB00B3735D /* cameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CD52CD7FBAB00B3735D /* cameraView.swift */; };
 		E1017CDC2CD801EC00B3735D /* InterestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CDB2CD801EC00B3735D /* InterestingViewModel.swift */; };
 		E1017CDE2CD802E100B3735D /* interestingpageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1017CDD2CD802E100B3735D /* interestingpageData.swift */; };
 		E10341512CB95BD200131089 /* strawberryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10341502CB95BD200131089 /* strawberryApp.swift */; };
@@ -41,8 +39,6 @@
 		E1017CCB2CD7E2C200B3735D /* storiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storiesData.swift; sourceTree = "<group>"; };
 		E1017CCD2CD7E42700B3735D /* storiesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storiesScreen.swift; sourceTree = "<group>"; };
 		E1017CCF2CD7F59400B3735D /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
-		E1017CD32CD7FA8D00B3735D /* imagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePickerView.swift; sourceTree = "<group>"; };
-		E1017CD52CD7FBAB00B3735D /* cameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraView.swift; sourceTree = "<group>"; };
 		E1017CDB2CD801EC00B3735D /* InterestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingViewModel.swift; sourceTree = "<group>"; };
 		E1017CDD2CD802E100B3735D /* interestingpageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interestingpageData.swift; sourceTree = "<group>"; };
 		E103414D2CB95BD200131089 /* strawberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strawberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,8 +145,6 @@
 				E190EC292CD37AD50053FA07 /* storiesView.swift */,
 				E190EC2B2CD380620053FA07 /* headerView.swift */,
 				E190EC2D2CD3BB8B0053FA07 /* searchView.swift */,
-				E1017CD32CD7FA8D00B3735D /* imagePickerView.swift */,
-				E1017CD52CD7FBAB00B3735D /* cameraView.swift */,
 			);
 			path = subViews;
 			sourceTree = "<group>";
@@ -244,10 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10341532CB95BD200131089 /* ContentView.swift in Sources */,
-				E1017CD62CD7FBAB00B3735D /* cameraView.swift in Sources */,
 				E195E76F2CBC1E9400AE48C1 /* navigationView.swift in Sources */,
 				E195E76B2CBC1DCB00AE48C1 /* screenThree.swift in Sources */,
-				E1017CD42CD7FA8D00B3735D /* imagePickerView.swift in Sources */,
 				E1017CCC2CD7E2C200B3735D /* storiesData.swift in Sources */,
 				E1017CC72CD7DDDE00B3735D /* messageScreen.swift in Sources */,
 				E1017CDE2CD802E100B3735D /* interestingpageData.swift in Sources */,
