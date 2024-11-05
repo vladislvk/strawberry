@@ -10,6 +10,7 @@ struct screenTwo: View {
     
     var body: some View {
         ScrollView {
+            searchView()
             LazyVGrid(columns: columns, spacing: 0) {
                 ForEach(data) { tile in
                     Image(tile.imageName)

@@ -1,8 +1,14 @@
 import SwiftUI
 
 struct searchView: View {
+    @State private var searchText = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("hola", text: $searchText) 
+            .padding()
+            .background(Color(.systemGray5))
+            .cornerRadius(8)
+            .padding(.horizontal)
     }
 }
 
